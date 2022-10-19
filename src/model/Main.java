@@ -11,6 +11,17 @@ public class Main {
 		
 		DataAccess dataAccess = new DataAccess("jdbc:mysql://localhost:8889"
 				+ "/company?useSSL=false&serverTimezone=UTC", "root", "root");
+		
+	/*
+	ELEMENTS DE REPONSES DONNES PAR PROF
+	List <EmployeeInfo> liste = new ArrayList <Employee> ();
+        
+        WHILE{
+          E = new Employee(x, x, x);
+          liste.add(e);
+                  }
+        return liste;
+      }*/
 
 	}
 
